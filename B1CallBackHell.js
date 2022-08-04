@@ -60,18 +60,30 @@ export function getDataCallBack() {
     })
   }
 
+  let rami = false
+  let IKEA = false
+  let ZolStock = false
 
   //function getDataToHTML(data, depart, location) {
   function getDataToHTML(store, location) {
-    // const div = document.createElement('div')
-    
-    if($('#Rami Levi')){
-      div.append(`<h2 id="${store.name}">${store.name}</h2>`)
+    const div = document.createElement('div')
+    // const rami = document.getElementById('Rami Levi')
+    // const rami = $('#Rami Levi')
+    if(!rami){
+      rami = true
+      const h2 = document.createElement('h2')
+      h2.innerHTML = store.name
+      h2.id = store.name
       const departments = store.departments
       for(let i = 0; i < departments.length; i++){
-
+        
       }
+      div.appendChild(h2)
     }
+      
+
+      // const h2 = div.append(`<h2 id="${store.name}">${store.name}</h2>`)
+      
     // console.log(`data`);
     // console.log(data);
     // for (let i = 0; i < data.length; i++) {
