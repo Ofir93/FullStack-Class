@@ -1,0 +1,15 @@
+git checkout -b feature/FSC-1
+git add
+git commit -m "edit main.js"
+git stastus
+git push
+ git push --set-upstream origin feature/FSC-1
+ git stash
+ FullStack-Class
+ git checkout
+ git rm
+ git push
+
+ ///////////////////////////
+ npm node package manager?
+ 
