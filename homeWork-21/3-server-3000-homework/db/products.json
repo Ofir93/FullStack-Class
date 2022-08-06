@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Apple"
+  },
+  {
+    "id": 2,
+    "name": "Orange"
+  },
+  {
+    "id": 6,
+    "name": "cucumber"
+  },
+  {
+    "id": 3,
+    "name": "Table"
+  },
+  {
+    "id": 7,
+    "name": "Sofa"
+  },
+  {
+    "id": 4,
+    "name": "Throw blankets"
+  },
+  {
+    "id": 13,
+    "name": "Window treatments"
+  },
+  {
+    "id": 18,
+    "name": "Bedding"
+  },
+  {
+    "id": 8,
+    "name": "lamp"
+  },
+  {
+    "id": 14,
+    "name": "Cable"
+  },
+  {
+    "id": 5,
+    "name": "Bakeware"
+  },
+  {
+    "id": 11,
+    "name": "Drinkware"
+  },
+  {
+    "id": 17,
+    "name": "Coffee & tea accessories"
+  },
+  {
+    "id": 20,
+    "name": "WiFi speakers"
+  },
+  {
+    "id": 10,
+    "name": "Smart lighting"
+  },
+  {
+    "id": 9,
+    "name": "Beef"
+  },
+  {
+    "id": 12,
+    "name": "Goat"
+  },
+  {
+    "id": 16,
+    "name": "Lamb"
+  },
+  {
+    "id": 15,
+    "name": "Balloons"
+  },
+  {
+    "id": 19,
+    "name": "Yard Signs"
+  }
+]

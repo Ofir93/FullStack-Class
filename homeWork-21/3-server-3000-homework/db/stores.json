@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Rami Levi",
+    "departments": [1, 7]
+  },
+  {
+    "id": 2,
+    "name": "IKEA",
+    "departments": [2, 3, 5, 6]
+  },
+  {
+    "id": 3,
+    "name": "Zol Stock",
+    "departments": [4, 8]
+  }
+]

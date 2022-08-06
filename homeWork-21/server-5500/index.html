@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>פרויקט סינכרוניזציה ואסינכרוניזציה</title>
+</head>
+
+<body>
+    <h1>אופיר בן יעקב</h1>
+
+    <h2>part A</h2>
+    <button id="test">Test</button>
+    <button id="resetCounter">Reset Counter</button>
+
+    <h3 id="testCounter"></h3>
+    <div class="containerA">
+        <ol>
+            <li>
+                <button id="getSync">Get Sync</button>
+                <button id="getSyncReset">Reset Get Sync</button>
+                <div id="getSyncDiv"></div>
+            </li>
+            <li>
+                <button id="getAsync">Get Async</button>
+                <button id="getAsyncReset">Reset Get Async</button>
+                <div id="getAsyncDiv"></div>
+            </li>
+            <li>
+                <button id="getAjax">Get Ajax</button>
+                <button id="getAjaxReset">Reset Get Ajax</button>
+                <div id="getAjaxDiv"></div>
+            </li>
+            <li>
+                <button id="postSync">Post Sync</button>
+                <button id="postSyncReset">Reset Post Sync</button>
+                <div id="postSyncDiv"></div>
+            </li>
+            <li>
+                <button id="postAsync">Post Async</button>
+                <button id="postAsyncReset">Reset Post Async</button>
+                <div id="postAsyncDiv"></div>
+            </li>
+            <li>
+                <button id="postAjax">Post Ajax</button>
+                <button id="postAjaxReset">Reset Post Ajax</button>
+                <div id="postAjaxDiv"></div>
+            </li>
+        </ol>
+    </div>
+    <div class="containerB">
+        <h2>part B</h2>
+        <ol>
+            <li><button id="callBack">Call Back Stores</button>
+                <button id="callBackReset">Reset Call Back Stores</button>
+                <div id="callBackDiv"></div></li>
+            <li><button id="promiseAjax">Promises + Ajax Stores</button>
+                <button id="promiseAjaxReset">Reset Promises + Ajax Stores</button>
+                <div id="promiseAjaxDiv"></div></li>
+            <li><button id="AsyncAwaitFetch">Async Await + fetch Stores</button>
+                <button id="AsyncAwaitFetchReset">Reset Async Await + fetch Stores</button>
+                <div id="AsyncAwaitFetchDiv"></div></li>
+        </ol>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>

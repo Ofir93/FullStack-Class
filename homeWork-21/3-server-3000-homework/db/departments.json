@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Fruits And Vegetables",
+    "products": [1, 2, 6]
+  },
+  {
+    "id": 2,
+    "name": "Furniture",
+    "products": [3, 7]
+  },
+  {
+    "id": 3,
+    "name": "Home Textiles",
+    "products": [4, 13, 18]
+  },
+  {
+    "id": 4,
+    "name": "Electricity",
+    "products": [8, 14]
+  },
+  {
+    "id": 5,
+    "name": "Kitchenware & Tableware",
+    "products": [5, 11, 17]
+  },
+  {
+    "id": 6,
+    "name": "Smart home",
+    "products": [20, 10]
+  },
+  {
+    "id": 7,
+    "name": "Meat",
+    "products": [9, 12, 16]
+  },
+  {
+    "id": 8,
+    "name": "Birthday",
+    "products": [15, 19]
+  }
+]
