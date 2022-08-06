@@ -9,6 +9,7 @@ git push
  git checkout
  git rm
  git push
+ git checkout HEAD 'New Text Document.txt'
 
  ///////////////////////////
  npm node package manager?
